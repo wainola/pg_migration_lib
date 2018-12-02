@@ -1,0 +1,22 @@
+{
+  "name": "pg_migration_lib",
+  "version": "1.0.0",
+  "description": "tiny librarie to run migrations againts postgres database, similar to goose in some respects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wainola/pg_migration_lib.git"
+  },
+  "author": "Nicolás Riquelme Guzmán",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wainola/pg_migration_lib/issues"
+  },
+  "homepage": "https://github.com/wainola/pg_migration_lib#readme",
+  "bin": {
+    "pg": "./bin/pg_migration.js"
+  }
+}
